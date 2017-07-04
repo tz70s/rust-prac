@@ -29,8 +29,8 @@ fn mid_func(v: &Vec<i32>) -> i32 {
     let length = new_v.len();
     let mut temp;
     // bubblesort
-    for i in 0..length-1 {
-        for j in i+1..length {
+    for i in 0..length - 1 {
+        for j in i + 1..length {
             if new_v[i] > new_v[j] {
                 temp = new_v[i];
                 new_v[i] = new_v[j];
@@ -40,7 +40,7 @@ fn mid_func(v: &Vec<i32>) -> i32 {
     }
 
     // print the mid number
-    new_v[length/2]
+    new_v[length / 2]
 }
 
 // mode number
@@ -66,4 +66,3 @@ fn mode_func(v: &Vec<i32>) -> i32 {
     }
     mode
 }
-
