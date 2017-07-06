@@ -3,7 +3,7 @@ use std::env;
 
 // parse args
 pub fn parse_args() -> Result<Config, &'static str> {
-    let args : Vec<String> = env::args().collect();
+    let args: Vec<String> = env::args().collect();
     if args.len() < 3 {
         return Err("not enough arguments");
     }
@@ -12,8 +12,8 @@ pub fn parse_args() -> Result<Config, &'static str> {
 
 #[derive(Debug)]
 pub struct Config {
-    content: String,
-    search_string: String,
+    pub content: String,
+    pub search_string: String,
 }
 
 impl Config {
