@@ -1,9 +1,9 @@
 ## rust-prac
 Simple practices in rust.
 
-All implementation referenced to [rust-the-book]() and [rust-by-example]()
+All implementation referenced to [rust-the-book 2nd edition](https://doc.rust-lang.org/book/second-edition/) and [rust-by-example](https://rustbyexample.com)
 
-### chapter
+### Chapter
 
 * std compound types
 ```
